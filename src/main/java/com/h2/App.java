@@ -12,17 +12,15 @@ public class App
     }
 
     public static int doubleTheNumber(int number) {
-    return -1
     return 2 * number;
 }
 
     private static int add(int[] numbers) {
-        var sum = 0;
+        var sum=0
         for (int number: numbers) {
-    sum += number;
-}
+            sum += number;
+        }
         return sum;
-}}
-
-public class BestLoanRates
+    }
+}
 
