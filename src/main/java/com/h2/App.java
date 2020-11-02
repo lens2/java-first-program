@@ -4,7 +4,7 @@ package com.h2;
  * Hello world!
  *
  */
-public class App
+public class App{
 
     public static void main( String[] args )
     {
@@ -16,7 +16,7 @@ public class App
 }
 
     private static int add(int[] numbers) {
-        var sum=0
+        var sum=0;
         for (int number: numbers) {
             sum += number;
         }
