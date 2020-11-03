@@ -16,7 +16,7 @@ public class Finance {
             MORTGAGE_CALCULATOR, "usage: mortgageCalculator <loanAmount> <termInYears> <annualRate>"
     );
 
-    public static boolean validateCommandArguments(String[] args){
+    public static boolean validateCommandArguments(String[] args) {
         switch (args[0]) {
             case BEST_LOAN_RATES:
                 return args.length==1;
