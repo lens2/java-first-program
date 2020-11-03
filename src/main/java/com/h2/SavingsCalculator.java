@@ -1,8 +1,10 @@
 package com.h2;
 
 public class SavingsCalculator {
-    private debit(float[] args)
-    private
+    private float[] credits;
+    private float[] debits;
+
+    public
 
 
 
