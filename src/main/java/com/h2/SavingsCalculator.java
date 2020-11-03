@@ -42,6 +42,7 @@ public class SavingsCalculator {
     public static void main(String[] args) {
         final String[] creditsAsString = args[0].split(",");
         final String[] debitsAsString = args[1].split(",");
+
         final float[] credits = new float[creditsAsString.length];
         final float[] debits = new float[debitsAsString.length];
 
@@ -50,7 +51,7 @@ public class SavingsCalculator {
         }
 
         for (int i = 0; i < debitsAsString.length; i++) {
-            debits[i] = Float.parseFloat(creditsAsString[i]);
+            debits[i] = Float.parseFloat(debitsAsString[i]);
         }
 
         final SavingsCalculator calculator = new SavingsCalculator(credits, debits);
